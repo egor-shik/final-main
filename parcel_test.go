@@ -17,7 +17,7 @@ var (
 	// randRange использует randSource для генерации случайных чисел
 	randRange = rand.New(randSource)
 )
-
+//изменение для PR
 // getTestParcel возвращает тестовую посылку
 func getTestParcel() Parcel {
 	return Parcel{
